@@ -1,0 +1,29 @@
+package Practies.java;
+
+import java.util.Scanner;
+
+ class Tp{
+	
+	
+	public static void main(String args[]) {
+		
+		Scanner sc=new Scanner(System.in);
+		
+	
+		int i=10,j=20;
+		System.out.println(i+" " +j);
+		
+		int temp;
+		
+		temp=i;
+		i=j;
+		j=temp;
+		
+		System.out.println(i+" " +j);
+		
+		
+		
+	}
+	
+}
+

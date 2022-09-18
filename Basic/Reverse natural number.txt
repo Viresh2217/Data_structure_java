@@ -1,0 +1,22 @@
+package Practies.java;
+
+import java.util.*;
+class Tp{
+public static void main(String args[])
+{
+	
+System.out.println("Enter a number");
+
+Scanner sc=new Scanner(System.in);
+
+/* System.out.println("Enter a number"); */
+int n=sc.nextInt();
+
+for(int i=n;i>0;i--) {
+	System.out.print(i+" ");
+}
+	
+	
+	
+}
+}
